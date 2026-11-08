@@ -1,0 +1,117 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.so
+
+# Virtuelle Umgebungen
+.venv/
+venv/
+env/
+ENV/
+
+# Python-Werkzeuge und Tests
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Build- und Paketdateien
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Lokale Konfiguration und Zugangsdaten
+.env
+.env.*
+!.env.example
+*.local
+
+# Projektlogdateien
+log/*
+!log/.gitkeep
+*.log
+
+# Eingabedaten von ornitho.de
+# Die Exporte können personenbezogene Angaben, genaue Koordinaten
+# und sensible Beobachtungsdaten enthalten.
+data/input/*
+!data/input/.gitkeep
+
+# Erzeugte Excel-Ausgaben
+data/output/*
+!data/output/.gitkeep
+
+# Archivierte Quelldateien
+data/processed/*
+!data/processed/.gitkeep
+
+# Zusätzliche lokale Daten- und Arbeitsverzeichnisse
+data/cache/
+data/temp/
+data/tmp/
+tmp/
+temp/
+
+# Excel-Dateien und temporäre Office-Dateien
+~$*.xlsx
+~$*.xls
+~$*.docx
+~$*.pptx
+*.xlsx
+*.xls
+
+# Exportdateien anderer unterstützter Formate
+# Sie sollen nicht versehentlich aus anderen Projektordnern eingecheckt werden.
+export_*.json
+export_*.xml
+export_*.txt
+export_*.tsv
+export_*.xlsx
+export_basic_*.xlsx
+*_mit_adressen.xlsx
+
+# Lokaler Geocoding-Cache, falls später dauerhaft gespeichert
+*.sqlite
+*.sqlite3
+*.db
+*geocod*cache*
+
+# Sicherungen und lokale Refactoring-Artefakte
+*_backup_*/
+*_backup_*.py
+*_backup_*.md
+backup/
+backups/
+
+# IDEs und Editoren
+.vscode/
+.idea/
+*.code-workspace
+*.swp
+*.swo
+*~
+
+# Betriebssystemdateien
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Lokale Testartefakte
+.pytest_tmp/
+test-output/
+
+# Archive
+*.zip
+*.7z
+*.tar
+*.tar.gz
